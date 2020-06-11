@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-6">
+        <img [src]="pelicula.img" />
+    </div>
+    <div class="col-6">
+        <h1>{{pelicula.nombre}}</h1>
+        <p>Sinopsis: {{pelicula.bio}}</p>
+        <p>Fecha Estreno: {{pelicula.estreno}}</p>
+        <p>Reparto: {{pelicula.reparto}}</p>
+        <!--<img width="50px" height="50px" [src]="urlImg"><br />-->
+        <button (click)="regresar()" class="btn btn-info">Regresar</button>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="card">
+    <img [src]="in_Pelicula.img" class="card-img-top" [alt]="in_Pelicula.nombre">
+    <div class="card-body">
+        <h5 class="card-title">{{ in_Pelicula.nombre}}</h5>
+        <p class="card-text">{{in_Pelicula.bio}}</p>
+        <p><button class="btn btn-info" (click)="visitar_detalle_pelicula(in_Pelicula)">Seleccionar</button></p>
+    </div>
+</div>
